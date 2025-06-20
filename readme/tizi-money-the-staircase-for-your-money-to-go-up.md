@@ -1,0 +1,7 @@
+# Tizi Money (the staircase for your money to go up)
+
+“Tizi” is a decentralised finance (DeFi) project that offers users innovative solutions to maximise their earning potential by deploying funds across chains. Combining with the stability of traditional financial instruments with the advantages of bridging blockchain technology, Tizi uses multiple strategies on multiple chains and integrates and increases the total amount of revenue. Tizi is like a savings protocol that can protect capital by using stablecoin settlement. In the current volatile Defi ecosystem, it is a project that seeks progress while maintaining stability.
+
+The core of Tizi is the concept of stablecoin-based DeFi, with yield earning in a cascadic way. The stablecoin~~s~~ in this project is TD, which is designed to maintain a stable value of 1:1 USDC. It serves as foundational building blocks for users to access various opportunities within the DeFi landscape. You mint TD by depositing USDC, and withdraw your USDC by burning TD.
+
+Tizi is a protocol focusing on asset management, with a specialization in neutral-risk strategies. At the heart of its product line is TD, which is a yield-driven stablecoin fully backed up by USDC. This collateral for TD is rooted in DeFi strategies that generate returns. These strategies encompass lending to platforms like Aave, Yearn, Tarot, etc., and include both stablecoin-to-stablecoin and neutral-risk strategies.
