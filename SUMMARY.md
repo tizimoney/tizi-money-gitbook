@@ -28,7 +28,7 @@
 * [Withdraw](users-guide/withdraw.md)
 * [Manager and ADMIN](users-guide/manager.md)
 * [Strategies](users-guide/strategies.md)
-* [Contract Adresses](users-guide/contract-adresses.md)
+* [Contract Addresses](users-guide/contract-addresses.md)
 
 ## Other
 
