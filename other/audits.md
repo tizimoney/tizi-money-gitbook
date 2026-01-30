@@ -4,7 +4,7 @@ At Tizi we are committed to the highest quality of engineering and will use what
 
 ### Beosin Audit 2026
 
-[Beosin](https://www.beosin.com/) is a world-leading blockchain security company. It has discovered more than 45,000 security vulnerabilities and accumulated over 4.7 billion wallet address labels, with a special focus on Asian regions.
+[Beosin](https://www.beosin.com/) is a world-leading blockchain security company. It has discovered more than 45,000 security vulnerabilities and accumulated over 4.7 billion wallet address labels.
 
 In January 2026, Tizi conducted an audit of all contracts.
 
