@@ -1,32 +1,10 @@
 # FAQ (Frequently Asked Questions)
 
-#### 1. How does the rebasing work? Explain it like I'm 5
-
-When you put in money, you get a ticket called TD for each dollar. The money is then moved to several places on different chains where it can grow. Every day, the money in each of those places is counted, and those amounts are put together to find how much the money has grown. The amount of TD in your wallet then grows to match that amount. This all happens automatically without you having to do anything.
-
-#### 2. How does the rebasing work? Explain it like I'm michwill
-
-The farms, comprising both capital and earned reward tokens, can be represented as a set of tuples $$f_i = (a, \delta,\tau)$$ where an amount $$a$$ of token $$\delta$$ is movable no earlier than at time $$\tau$$, where a value of $$\tau$$ in the future indicates a token subject to a lock up while past values indicate a currently liquid token.
-
-Using the function $$o(\delta)$$ to represent the current market price of token $$\delta$$ (via an oracle), and defining the net present value function $$V$$ as
-
-$$
-V(x,\tau) = \begin{cases} x \cdot o(\delta) \cdot (1+x)^{\tau-t} & \text{if } t < \tau \\ x \cdot o(\delta) & \text{if } t \geq \tau \end{cases}
-$$
-
-where $$d$$ is a discount rate, we define the current net present value of all farms as
-
-$$
-n=\sum_i V(f_i)
-$$
-
-and at each rebase, the number of circulating TD is adjusted to match $$n$$.
-
-#### 3. Is Tizi a fork?
+#### 1. Is Tizi a fork?
 
 No; Tizi is built from the ground up. It does, however, extend the work of other DeFi builders. The multichain rebasing aspect of TD is based on [work by Tangible DAO](https://github.com/TangibleTNFT/tangible-foundation-contracts/blob/main/src/tokens/LayerZeroRebaseTokenUpgradeable.sol). The design of vault and farm contracts, while not a fork, is inspired by other yield aggregators which were in turn inspired by [Yearn](https://yearn.fi/).
 
-#### 4. Which bridge does Tizi use?
+#### 2. Which bridge does Tizi use?
 
 Bridges are used for two distinct purposes: passing messages (for example, for rebase calculations) and for moving the underlying assets. While Tizi is bridge agnostic at the core, these are the bridges it currently uses:
 
@@ -36,13 +14,13 @@ Bridges are used for two distinct purposes: passing messages (for example, for r
 | Axelar      |                      | :heavy\_check\_mark: |
 | Layer Zero  | :heavy\_check\_mark: | :heavy\_check\_mark: |
 
-#### 5. Wen token?
+#### 3. Wen token?
 
 We have no governance token and no current plans to issue one. Anyone offering to sell or give you such tokens is a scammer.
 
 We expect early users of the protocol to be allocated a portion of the governance token we're not planning to have. :wink:
 
-#### 6. What are the risk factors and what are the solutions?
+#### 4. What are the risk factors and what are the solutions?
 
 *   Occasionally a cross-chain bridge stops functioning properly. In that case, the funds will be temporarily locked on the current chain and cannot be transferred across chains until the bridge status returns to normal.
 
@@ -59,3 +37,11 @@ We expect early users of the protocol to be allocated a portion of the governanc
 *   Centralization risk: Since the transfer of USDC from Base chain to Sei chain needs to go through Base->Noble->Sei path, an EOA address is required on Noble chain to receive USDC. Please operate under the condition of trusting the admin.
 
     Solution: Publicize the EOA address and strictly monitor it. When multi-signature wallets are supported on Noble, multi-signature wallets will be used instead.
+
+#### 5. How does Tizi mitigate centralization risks?
+
+First, we ensure priority withdrawal of pending USDC from NFTs. When there is pending USDC in NFTs, the administrator cannot transfer more than that amount from the mainVault, nor can they deploy new strategies or new vaults. The administrator can relay liquidity information across chains via LayerZero.
+
+After a new strategy is deployed, it will not be activated immediately. It must wait at least 3 days and ensure sufficient liquidity. During this period, users can audit the strategy. If users object to the new strategy, they can opt out before it takes effect. The strategy will not be used unless users who have exited receive corresponding compensation.
+
+Upgrade authority is granted to the TimeLock contract. Upgrades will not take effect immediately; they also require a minimum 3-day waiting period, sufficient liquidity, and confirmation that no other addresses possess upgrade authority. In the future, we will transfer admin privileges to a multi-signature wallet to further reduce centralization risks.

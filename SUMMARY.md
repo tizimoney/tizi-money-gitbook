@@ -9,6 +9,7 @@
 * [Tizi Money assets](core-concept/tizi-money-assets/README.md)
   * [Characteristics](core-concept/tizi-money-assets/characteristics.md)
   * [Tizi Token (TD)](core-concept/tizi-money-assets/tizi-token-td.md)
+  * [stTD](core-concept/tizi-money-assets/sttd.md)
   * [WPT (Withdrawal Proof Tokens)](core-concept/tizi-money-assets/wpt-withdrawal-proof-tokens.md)
 * [Use Cases](core-concept/use-cases.md)
 * [FAQ (Frequently Asked Questions)](core-concept/faq-frequently-asked-questions.md)
@@ -23,12 +24,14 @@
 ## Users guide
 
 * [Mint](users-guide/mint.md)
+* [Stake](users-guide/stake.md)
 * [Fees](users-guide/fees.md)
 * [Compounding](users-guide/compounding.md)
+* [Redeem](users-guide/redeem.md)
 * [Withdraw](users-guide/withdraw.md)
-* [Manager and ADMIN](users-guide/manager.md)
+* [Roles](users-guide/manager.md)
 * [Strategies](users-guide/strategies.md)
-* [Contract Addresses](users-guide/contract-addresses.md)
+* [Contract Address](users-guide/he-yue-di-zhi.md)
 
 ## Other
 

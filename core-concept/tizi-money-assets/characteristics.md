@@ -1,7 +1,8 @@
 # Characteristics
 
-* Yield-generating stablecoin fully collateralised with yield-generating DeFi assets, with TD (Tizi Dollar) pegged to USDC in a 1:1 ratio.
-* A DeFi equivalent of a money market fund, boasting a highly conservative and liquid portfolio with profits distributed daily.
-* Simple to use: just mint and forget, and your money will grow.
+* TD is the user entry token, always minted at a soft peg of 1:1 to USDC (with a 0.04% fee upon redemption).
+* stTD is the staking token, obtained by staking TD. It is a hybrid token that automatically generates yield through a delta-neutral strategy. It represents a claim on the underlying TD and accumulated yields. By unstaking, you receive new TD based on the prevailing stTD/TD ratio, capturing the growth in TD.
+* DeFi Money Market Fund — this is a money market fund in the DeFi space, offering a conservative yet liquid portfolio. The fund distributes profits daily, providing investors with a stable and continuous source of yield.
+* Simple to use: simply mint (TD) and stake directly (to receive stTD) once, then sit back and relax — your funds will grow automatically.
 
-<figure><img src="../../.gitbook/assets/f357efcb46bdb3fc02dbf3aa496086f.png" alt=""><figcaption><p>Legend: hexagon—contracts, {} – set of chains, Arrow—How the money flows, &#x3C;> -- chain</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>

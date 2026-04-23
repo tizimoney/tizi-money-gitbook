@@ -29,3 +29,9 @@ The pegging mechanism is based on the ‘NAV of 1’ policy (“Net Asset Value�
 Conservative risk management aims to avoid daily losses by building a diversified portfolio of highly conservative DeFi Investments
 
 Daily distribution of profits in the form of a rebase to TD holders; all yield collected by the TD reserves are distributed to TD holders directly by increasing their wallet balance once a day.
+
+An **r\_t** variable is used to reflect the ratio between the current TD token supply and the strategy asset amount, with this index denominated in USDC.
+
+Internally, balances are stored in the Vault, and admin functions are protected by a timelock contract. When using the `mint()` and `redeem()` methods of DepositHelper, the value of r\_t is adjusted accordingly.
+
+The manager can bridge and allocate USDC across different blockchains via the VAULT. The allocation of USDC within the VAULT to specific investment strategies is determined by the Decentralized Autonomous Organization (DAO) through voting, and this allocation is executed by the manager. When the target investment strategy is not on the main chain, the manager bridges a portion of USDC from the VAULT on the main chain to the VAULT on another chain.
