@@ -1,0 +1,3 @@
+# Points
+
+The Tizi points system is designed to reward long-term protocol participants.&#x20;Points are directly tied to the user's asset holdings in the protocol and the&#x20;duration of those holdings. Points are accumulated daily: 1 point is earned&#x20;for every 1 USDC equivalent held for 1 full day (1 USDC / 1 DAY / 1 point).&#x20;Holdings for less than 24 hours do not count. Points are calculated based on&#x20;the USDC equivalent value of TD and stTD held in the user's wallet, with&#x20;cross-chain holdings aggregated. Points can be used to participate in&#x20;exclusive Tizi ecosystem events, lottery games, and future governance&#x20;benefits.

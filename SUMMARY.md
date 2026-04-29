@@ -10,7 +10,7 @@
   * [Characteristics](core-concept/tizi-money-assets/characteristics.md)
   * [Tizi Token (TD)](core-concept/tizi-money-assets/tizi-token-td.md)
   * [stTD](core-concept/tizi-money-assets/sttd.md)
-  * [WPT (Withdrawal Proof Tokens)](core-concept/tizi-money-assets/wpt-withdrawal-proof-tokens.md)
+  * [TUWT(Tizi User Withdraw Token)](core-concept/tizi-money-assets/tuwt-tizi-user-withdraw-token.md)
 * [Use Cases](core-concept/use-cases.md)
 * [FAQ (Frequently Asked Questions)](core-concept/faq-frequently-asked-questions.md)
 
@@ -30,6 +30,7 @@
 * [Redeem](users-guide/redeem.md)
 * [Withdraw](users-guide/withdraw.md)
 * [Roles](users-guide/manager.md)
+* [Points](users-guide/points.md)
 * [Strategies](users-guide/strategies.md)
 * [Contract Address](users-guide/he-yue-di-zhi.md)
 
