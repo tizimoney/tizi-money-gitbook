@@ -4,4 +4,4 @@ With Tizi, it is simple, hassle-free and fun to manage stablecoins. You deposit 
 
 Enjoy the ease and convenience that Tizi brings to your financial journey!
 
-TDs are rebase tokens, fully collateralised with assets that can be instantly converted into USDC. A rebase token can experience Profit (positive rebase) when the collateral value exceeds 100% and Loss (negative rebase) when the collateral value falls below 100%. Please note that you assume the risk of all protocols in the Collateral. Profit payouts occur through daily rebasing, providing transparent balance and P/L visibility.
+Rewards for stTD holders accumulate within the staking contract, gradually increasing the value of stTD over time instead of being paid out directly. Please note that you assume the associated risks of all protocols involved in the collateral. Profit distribution will be completed over a 7-day period to ensure transparency in your account balance and profit/loss status.

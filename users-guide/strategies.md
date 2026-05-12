@@ -2,7 +2,7 @@
 
 The overarching principles of the investment strategy are
 
-* Risk over return: The strategies target positive daily yields with a moderately low exposure to risks, such that in the normal course of operation, all daily rebases are expected to be positive.
+* Risk over return: The strategies target positive daily yields with a moderately low exposure to risks, such that in the normal course of operation, all updates are expected to be positive.
 * Holders in control: As the market develops, new strategies will be added. Since the new strategies will be deployed with a timelock, those who are not comfortable with the new strategies will have time to redeem their holdings.
 
 Tizi deploys funds to multiple strategies that can be broadly classified as delta neutral yield sources.

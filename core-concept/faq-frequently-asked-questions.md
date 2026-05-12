@@ -30,7 +30,7 @@ We expect early users of the protocol to be allocated a portion of the governanc
     Solution: no solution needed.
 *   Each of the strategies carries some risk of its underlying protocol, including risks of exploits and smart contract bugs.
 
-    Solution: Over time, Tizi will accumulate an insurance fund to cover potential shortfalls. If the loss exceeds the fund, TD holders could be subjected to a negative rebase
+    Solution: Over time, Tizi will accumulate an insurance fund to cover potential shortfalls. If the loss exceeds the fund, stTD holders could be subjected to a negative update
 *   Liquidity risk: If a substantial amount of TD is withdrawn at the same time, the liquid strategies could be depleted, forcing users to wait for a length of time for their withdrawal to become available.
 
     Solution: in the future, Tizi will introduce a liquidity protection module where users may stake their TD for a lock period, thus becoming holders of last resort, and therefore ensuring enough liquidity for general users to exit first.
