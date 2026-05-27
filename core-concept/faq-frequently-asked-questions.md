@@ -25,6 +25,8 @@ $$
 n = \sum_i V(f_i)
 $$
 
+and at each update, the redemption value of stTD is adjusted to reflect the current net present value $$n$$.
+
 #### 3. Is Tizi a fork?
 
 No; Tizi is built from the ground up. It does, however, extend the work of other DeFi builders. The design of vault and farm contracts, while not a fork, is inspired by other yield aggregators which were in turn inspired by [Yearn](https://yearn.fi/).
