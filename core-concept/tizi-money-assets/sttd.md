@@ -7,7 +7,7 @@ TD maintains a 1:1 peg with USDC. As the USDC deployed across various strategies
 The project's Net Present Value (NPV) calculation comprises three components: USDC in the main wallet that has not yet been distributed, cross-chain USDC held across multiple chains, and USDC collected through various strategies and swapped from other tokens.
 
 $$
-NPV=USDC_m+USDC_p+USDC_c
+NPV=USD_m+USD_p+USD_c
 $$
 
 If the Net Present Value (NPV) exceeds the current total assets (netAssets), positive asset growth occurs, and TD equivalent to NPV minus netAssets is minted into the staking pool; this incremental amount is then linearly released over the subsequent 7 days. If the NPV falls below the current total assets (netAssets), negative asset growth occurs, and TD equivalent to netAssets minus NPV is burned from the staking pool. Subsequently, netAssets is set to the Net Present Value.

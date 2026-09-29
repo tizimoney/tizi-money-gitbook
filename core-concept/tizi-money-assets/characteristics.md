@@ -6,3 +6,5 @@
 * Simple to use: simply mint (TD) and stake directly (to receive stTD) once, then sit back and relax — your funds will grow automatically.
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+Legend: hexagon—contracts, { } — set of chains, arrows—how the money flows, &lt;&gt;—chain
