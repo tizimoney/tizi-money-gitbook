@@ -39,7 +39,7 @@ Bridges are used for two distinct purposes: passing messages (for example, for r
 | ----------- | -------------------- | -------------------- |
 | Circle CCTP | :heavy\_check\_mark: |                      |
 | Axelar      |                      | :heavy\_check\_mark: |
-| Layer Zero  | :heavy\_check\_mark: | :heavy\_check\_mark: |
+| LayerZero  | :heavy\_check\_mark: | :heavy\_check\_mark: |
 
 #### 5. Wen token?
 
