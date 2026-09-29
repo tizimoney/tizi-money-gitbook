@@ -1,0 +1,14 @@
+{
+  "networks": {
+    "Base": "base_mainnet",
+    "Sei": "sei_mainnet",
+    "Optimism": "op_mainnet",
+    "Arbitrum": "arb_mainnet",
+    "Avalanche": "ava_mainnet",
+    "Ethereum": "eth_mainnet",
+    "Sonic": "sonic_mainnet"
+  },
+  "contracts": {
+    "SubValut": "SubVault"
+  }
+}
