@@ -39,4 +39,4 @@
 * [Terms and conditions](other/terms-and-conditions.md)
 * [Privacy Policy](other/privacy-policy.md)
 * [Brand Assets](other/brand-assets.md)
-* [Audits](other/audits.md)
+* [Audits and Security](other/audits.md)
