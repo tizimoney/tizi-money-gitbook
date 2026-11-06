@@ -16,4 +16,4 @@ At Tizi, security is a top priority. We welcome responsible disclosures of poten
 
 We offer bug bounty rewards for valid vulnerability reports, with reward amounts determined based on the severity and impact of each finding. Tizi has paid out bug bounty rewards for previously reported vulnerabilities, demonstrating our ongoing commitment to security.
 
-To report a vulnerability or inquire about our bug bounty program, please contact info@tizi.money for further details.
+If you’ve found a potential vulnerability or have a question about our bug bounty program, please open a private ticket through [Tizi’s Discord ticket channel](https://discord.com/channels/1305398625215578193/1518819306077687978). This is our preferred way to receive reports and follow up with you. You can also reach us at [info@tizi.money](mailto:info@tizi.money).
