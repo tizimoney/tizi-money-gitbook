@@ -64,7 +64,7 @@ We expect early users of the protocol to be allocated a portion of the governanc
 
 #### 7. How does Tizi mitigate centralization risks?
 
-First, we ensure priority withdrawal of pending USDC from NFTs. When there is pending USDC in NFTs, the administrator cannot transfer more than that amount from the mainVault, nor can they deploy new strategies or new vaults. The administrator can relay liquidity information across chains via LayerZero.
+Pending USDC withdrawals represented by NFTs take priority. If the total USDC pending withdrawal under these NFTs exceeds the USDC balance in mainVault, the administrator cannot transfer USDC out of mainVault, deploy new strategies, or deploy new vaults. The administrator can relay liquidity information across chains via LayerZero.
 
 After a new strategy is deployed, it will not be activated immediately. It must wait at least 3 days and ensure sufficient liquidity. During this period, users can audit the strategy. If users object to the new strategy, they can opt out before it takes effect. The strategy will not be used unless users who have exited receive corresponding compensation.
 
