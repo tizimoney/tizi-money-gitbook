@@ -40,3 +40,10 @@
 * [Privacy Policy](other/privacy-policy.md)
 * [Brand Assets](other/brand-assets.md)
 * [Audits and Security](other/audits.md)
+
+## OFFICIAL LINKS
+
+* [Twitter](https://x.com/Tizi_Money)
+* [GitHub](https://github.com/tizimoney/Tizi-contract)
+* [Discord](https://discord.com/invite/D5qGAEfkfu)
+* [DefiLlama](https://defillama.com/protocol/tizi)
