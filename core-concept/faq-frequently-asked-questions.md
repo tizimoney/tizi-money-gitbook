@@ -61,9 +61,6 @@ We expect early users of the protocol to be allocated a portion of the governanc
 *   Liquidity risk: If a substantial amount of TD is withdrawn at the same time, the liquid strategies could be depleted, forcing users to wait for a length of time for their withdrawal to become available.
 
     Solution: in the future, Tizi will introduce a liquidity protection module where users may stake their TD for a lock period, thus becoming holders of last resort, and therefore ensuring enough liquidity for general users to exit first.
-*   Centralization risk: Since the transfer of USDC from Base chain to Sei chain needs to go through Base->Noble->Sei path, an EOA address is required on Noble chain to receive USDC. Please operate under the condition of trusting the admin.
-
-    Solution: Publicize the EOA address and strictly monitor it. When multi-signature wallets are supported on Noble, multi-signature wallets will be used instead.
 
 #### 7. How does Tizi mitigate centralization risks?
 
